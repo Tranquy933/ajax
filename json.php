@@ -7,4 +7,7 @@ $result = mysqli_query($conn, "SELECT * FROM student");
        	$student[] = $row;
     }
 	echo json_encode($student);
+	echo "sua";
 ?>
+
+
