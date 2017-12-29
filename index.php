@@ -61,4 +61,3 @@
         </script>
     </body>
 </html>
-<?php echo $var ?>
