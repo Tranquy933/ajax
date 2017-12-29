@@ -14,5 +14,6 @@ $result = mysqli_query($conn, "SELECT * FROM student");
 	<h1>kmjxcloskdmf</h11>
 	<p>sdfsdfsd</p>
 
-	<p>lam viec voi git</p>
+	<p>lam viec voi git cho nguoi moi lam</p>
+	
 </html>
