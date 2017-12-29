@@ -9,11 +9,4 @@ $result = mysqli_query($conn, "SELECT * FROM student");
 	echo json_encode($student);
 ?>
 
-<html>
-	
-	<h1>kmjxcloskdmf</h11>
-	<p>sdfsdfsd</p>
 
-	<p>lam viec voi git cho nguoi moi lam</p>
-	
-</html>
