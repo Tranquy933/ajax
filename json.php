@@ -10,4 +10,6 @@ $result = mysqli_query($conn, "SELECT * FROM student");
 ?>
 
 <html>
+	
+	<h1>kmjxcloskdmf</h11>
 </html>
