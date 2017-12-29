@@ -8,3 +8,6 @@ $result = mysqli_query($conn, "SELECT * FROM student");
     }
 	echo json_encode($student);
 ?>
+
+<html>
+</html>
