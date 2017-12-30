@@ -1,0 +1,364 @@
+#form_name{
+	text-align: center;
+}
+#validate_rg{
+    background: #f3f3f3;
+}
+#form_name form{
+    display: inline-block;
+}
+#errorBox input{
+	height: 30px;
+    width: 360px;
+    padding-left: 5px;
+    margin-left: 10px;
+}
+#email_form input{
+	height: 30px;
+    width: 369px;
+    padding-left: 5px;
+     margin-left: 10px;
+
+}
+#password_form input{
+	height: 30px;
+    width: 373px;
+    padding-left: 5px;
+     margin-left: 10px;
+}
+#Re_pasword_form input{
+	height: 30px;
+    width: 370px;
+    padding-left: 5px;
+     margin-left: 10px;
+}
+#address input{
+	height: 30px;
+    width: 365px;
+    padding-left: 5px;
+     margin-left: 10px;
+}
+#phone input{
+	height: 30px;
+    width: 365px;
+    padding-left: 5px;
+     margin-left: 10px;
+}
+#errorBox{
+padding: 10px 0px;
+}
+#email_form{
+  padding: 10px 0px;
+}
+#password_form{
+   padding: 10px 0px;
+}
+#Re_pasword_form{
+  padding: 10px 0px;
+}
+#address{
+  padding: 10px 0px;
+}
+#phone{
+    padding: 20px 0px;
+}
+.fullname{
+    padding: 10px 0px;
+}
+.birthday{
+    float: left;
+    margin-left: 12px;
+    padding-right: 11px;
+}
+.month{
+    height: 56px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+label{
+    height: 56px;
+    margin-top: 30px;
+}
+#messger{
+    margin-left: 10px;
+}
+#messger span{	
+    float: left;
+    margin-top: 35px;
+    margin-right: 10px;
+}
+#messger label textarea{
+	height: 100px;
+    width: 360px;
+    padding: 10px;
+}
+#messger span p{
+    margin-left: 56px;
+    margin-top: -27px;
+}
+#sign_user{
+   text-align: center;
+    background: #ffbc00;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 359px;
+    margin-left: 82px;
+    margin-top: 30px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.names{
+    padding-bottom: 10px;
+}
+.full_name{
+    color: red;
+    padding: 10px 84px;
+    text-align: initial;
+}
+.birmonth{
+    float: left;
+}
+.birday{
+    float: left;
+    padding: 0px 20px;
+}
+.birmonth{
+    height: 45px;
+}
+.birday{
+    height: 45px;
+}
+.biryear{
+    height: 45px;
+}
+label input{
+    padding-left: 15px;
+}
+.input_femal{
+    float: left;
+}
+#radio_button{
+    vertical-align: middle;
+    text-align: initial;
+    padding: 10px 13px;
+}
+.requi{
+    color: red;
+    text-align: initial;
+    padding: 10px 87px;
+}
+.full_mail{
+   color: red;
+    text-align: initial;
+    padding: 10px 78px;
+}
+.errmsg{
+    margin-left: 80px;
+    color: blue;
+}
+.input_add{
+    color: red;
+    padding: 10px 75px;
+    text-align: initial;
+}
+.input_messenger{
+    margin-left: 70px;
+    color: red;
+}
+.input_month{
+    color: red;
+    padding-top: 10px;
+}
+.input_day{
+    color: red;
+    padding-top: 10px;
+}
+.input_year{
+    color: red;
+    padding-top: 10px;
+}
+.birthday_year{
+    color: red;
+    padding-top: 10px;
+}
+.input_men{
+   color: red;
+    text-align: initial;
+    padding-bottom: 15px;
+}
+.input_phone{
+    color: red;
+    text-align: initial;
+    padding: 10px 79px;
+}
+#thumb_box img{
+    width: 100px;
+    height: 70px;
+    display: none;
+    margin-left: -136px;
+    margin-top: 10px;
+}
+.input_image{
+    margin-left: -34px;
+    color: red;
+    padding-top: 10px;
+}
+.input_re{
+   color: red;
+    text-align: initial;
+    padding: 10px 77px;
+}
+.imgs label span{
+    float: left;
+    margin-left: 13px;
+}
+#birthday_month{
+   height: 30px;
+    width: 100px;
+}
+#birthday_day{
+   height: 30px;
+    width: 100px;
+}
+#birthday_year{
+    height: 30px;
+    width: 100px;
+}
+.input_pas{
+    color: red;
+    text-align: initial;
+    padding: 10px 75px;
+}
+button{
+    height: 40px;
+    width: 100px;
+    margin-top: 47px;
+    color: #fff;
+    background: #785475;
+}
+#user-error{
+   color: red;
+    margin-top: 38px;
+    display: inline-block;
+    z-index: 2;
+    position: absolute;
+    left: 600px;
+}
+#full_user-error{
+   color: red;
+    margin-top: 38px;
+    display: inline-block;
+    z-index: 2;
+    position: absolute;
+    left: 600px;
+}
+#mail-error{
+   color: red;
+    margin-top: 38px;
+    display: inline-block;
+    z-index: 2;
+    position: absolute;
+    left: 600px;
+}
+#password1-error{
+   color: red;
+    margin-top: 38px;
+    display: inline-block;
+    z-index: 2;
+    position: absolute;
+    left: 593px;
+}
+#password2-error{
+   color: red;
+    display: inline-block;
+    z-index: 2;
+    position: absolute;
+    left: 593px;
+    margin-top: 38px;
+}
+#add-error{
+   color: red;
+    margin-top: 38px;
+    display: inline-block;
+    z-index: 2;
+    position: absolute;
+    left: 593px;
+}
+#phones-error{
+   color: red;
+    margin-top: 32px;
+    display: inline-block;
+    z-index: 2;
+    position: absolute;
+    left: 593px;
+}
+#birthday_month-error{
+      color: red;
+    margin-top: 38px;
+    display: inline-block;
+    z-index: 2;
+    position: absolute;
+    left: 588px;
+}
+#birthday_day-error{
+       color: red;
+    margin-top: 38px;
+    display: inline-block;
+    z-index: 2;
+    position: absolute;
+    left: 709px;
+}
+#birthday_year-error{
+       color: red;
+    margin-top: 38px;
+    display: inline-block;
+    z-index: 2;
+    position: absolute;
+    left: 850px;
+}
+#radiobutton-error{
+    z-index: 2;
+    position: absolute;
+    color: red;
+    margin-top: 17px;
+}
+#f_file-error{
+    position: absolute;
+    z-index: 2;
+    left: 671px;
+    color: red;
+    margin-top: 17px;
+}
+#mess-error{
+    position: absolute;
+    margin-top: 121px;
+    left: 596px;
+    color: red;
+}
+label{
+    height: initial;
+    margin-top: initial;
+}
+#form_name h1{
+    padding-bottom: 20px;
+}
+#file_attach-error{
+    position: absolute;
+    left: 664px;
+    padding-top: 23px;
+    color: red;
+}
+/*#file_attach-error{
+    position: absolute;
+    left: 665px;
+    padding-top: 23px;
+    color: red;
+}*/
+#form_name .submits{
+    padding: 10px 40px;
+    background: #cccccc;
+    color: #fff;
+    margin-top: 12px;
+    margin-left: 41px;
+}
+}

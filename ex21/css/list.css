@@ -1,0 +1,83 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font: normal 12px/20px Segoeui, Arial, Verdana, serif;
+}
+
+p {
+    color: #444444;
+    font: normal 12px/20px Segoeui, Arial, Verdana, serif;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+li a {
+    color: #444444;
+    text-decoration: none;
+    font: normal 12px/20px Segoeui, Arial, Verdana, serif;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+#header {
+    width: 100%;
+    height: 329px;
+}
+
+.container_width {
+    margin: 0px auto;
+    max-width: 1010px;
+    height: auto;
+}
+.list_us {
+ margin-top: 100px;
+}
+.list_us {
+ border-collapse: collapse;
+    width: 100%;
+    margin: 20px 0;
+}
+.list_us th {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #59b7c2;
+    text-align: left;
+    padding: 20px;
+    background: #f7f7f7;
+    text-align: center;
+}
+.list_us td {
+    border-bottom: 1px solid #ccc;
+    background: #FBFBFB;
+    text-align: left;
+    padding: 12px;
+}
+.list_us th:nth-child(2n+2),
+.list_us td:nth-child(2n+2) {
+   background: #fff!important;
+}
+.list_username .list_name{
+    margin-top: 25px;
+    color: #000 ;
+}
+
+#profile td{
+   
+}
+#profile th{
+    text-align: center;
+}

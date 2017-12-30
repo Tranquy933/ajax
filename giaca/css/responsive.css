@@ -1,0 +1,384 @@
+@media only screen and (max-width: 480px){
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    body{
+        font-size: 12px;
+        font-family: Arial;
+        background: #fff;
+        margin: 0 auto;
+    }
+    ul li{
+        list-style-type: none;
+    }
+    li a{
+        text-decoration: none;
+    }
+    .fl{
+        float: left;
+
+    }
+    .fr{
+        float: right;
+    }
+    .clear{
+        clear: both;
+    }
+    #container_header .col-logo{
+        text-align: center;
+    }
+    #container_header .col-logo .logo-giaca{
+        padding: 30px 0px;
+        float: none;
+    }
+    #container_header .col-logo #header_search{
+        width: initial;
+    }
+    #container_header .col-logo #header_search .border .simple_tip{
+        display: none;
+    }
+    #container_content .thumail-korea img{
+        padding: 0px 10px;
+    }
+    #container_content .thumail-deal img{
+        padding: 10px 10px
+    }
+    #container_content .thumail-hc img{
+        padding: 0px 10px;
+    }
+    #container_content .endow img{
+        padding: 10px 10px;
+    }
+    #container_content .free-endow img{
+        padding: 0px 10px;
+    }
+    #container_content .image_product{
+        text-align: center;
+    }
+    #container_content .image_product .img_list{
+        width: initial;
+        height: initial;
+    }
+    #container_content .image_product .micro_product{
+        padding: 15px 100px;
+    }
+    #container_content .col-deal .nav-md .nav-deal h1{
+        font-size: 12px;
+    }
+    #container_content .col-deal .nav-md .nav_title{
+        display: block;
+        margin: 0px; 
+        float: none; 
+        background: none;
+        border: none;
+    }
+    #container_content .col-deal .nav-md .nav_title .menu_nav a{
+        float: left;
+        margin-top: 0px; 
+        padding: 0px 10px;
+        font-size: 10px;
+    }
+    #container_content .col-deal .nav-md{
+        height: 30px;
+    }
+    #container_content .col-deal .nav-md .nav-deal{
+        padding: 10px;
+    }
+    #container_content .left-control{
+        z-index: 999;
+        position: absolute;
+        left: 50px;
+        top: 50px;
+    }
+    #container_content .right-control{
+        z-index: 999;
+        position: absolute;
+        right: 50px;
+        top: 50px;
+    }
+    #container_content .col-img{
+        position: absolute;
+    }
+    #container_content .carousel-inner .micro_product{
+        padding: 0px 130px
+    }
+    #container_content .tab-col .nav-list li .pill-text{
+        padding: 10px 35px;
+    }
+    #container_content .tab-col{
+        padding: 0px 16px;
+    }
+    #container_content .tab-col #nav-list .active:before{
+        width: 60px;
+    }
+    #container_content .border-play{
+        border-right-style: none;
+    }
+    #container_content .play{
+       border-right-style: none;
+   }
+   #container_content .tai_phone{
+    text-align: center;
+}
+#container_content .qc_free{
+    text-align: center;
+}
+#container_content .tab-col{
+    margin-top: 10px;
+}
+#container_content .list_group{
+    width: 100%;
+}
+#container_content .electrolux .electrolux-text{
+    font-size: 15px;
+    line-height: 17px;
+}
+#container_content .date{
+    font-size: 12px;
+}
+#container_content .electrolux .famus{
+    font-size: 12px;
+    line-height: 18px;
+}
+#container_content .consul .amply-text{
+    font-size: 12px;
+}
+#container_nav .col-nav .navbar-menu .fluid-navbar .icon_menu{
+    display: none;
+}
+#container_nav .col-nav .navbar-menu .fluid-navbar .clefix{
+    display: block;
+    padding: 15px 10px;
+}
+#container_nav .col-nav .navbar-menu .fluid-navbar .menu_nav{
+    display: none;
+}
+#container_content .electrolux p{
+    width: 190px;
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+    text-overflow: ellipsis;
+    margin: 0;
+
+}
+#container_content .quat_gio{
+    margin-bottom: 25px;    
+}
+#container_content .tab-col .nav-list{
+   border-bottom: none; 
+}
+}
+
+@media only screen and (min-width:481px) and (max-width: 768px){
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    body{
+        font-size: 12px;
+        font-family: Arial;
+        background: #fff;
+        margin: 0 auto;
+    }
+    ul li{
+        list-style-type: none;
+    }
+    li a{
+        text-decoration: none;
+    }
+    .fl{
+        float: left;
+
+    }
+    .fr{
+        float: right;
+    }
+    .clear{
+        clear: both;
+    }
+    #container_nav .col-nav .navbar-menu .fluid-navbar .icon_menu{
+        display: none;
+    }
+    #container_nav .col-nav .navbar-menu .fluid-navbar .clefix{
+        display: block;
+        padding: 15px 10px;
+    }
+    #container_nav .col-nav .navbar-menu .fluid-navbar .menu_nav{
+        display: none;
+    }
+    #container_content .col-sidbar{
+        width: 40%;
+        float: left;
+    }
+    #container_content .col-korea{
+        width: 60%;
+        float: left;
+    }
+    #container_content .thumail-deal img{
+        padding-top: 0px;
+        padding-bottom: 7px;
+        padding-left: 0px;
+    }
+    #container_content .thumail-hc img{
+        float: left;
+        width: 50%;
+    }
+    #container_content .endow img{
+        width: 50%;
+    }
+    #container_content .endow{
+        display: block;
+    }
+    #container_content .free-endow img{
+        padding: 0px;
+        padding-top: 7px;
+    }
+    #container_content .image_product .img_list{
+        width: initial;
+        height: initial;
+    }
+    #container_content .image_product .micro_product{
+        text-align: center;
+    }
+    #container_content .col-img{
+        position: absolute;
+    }
+    #container_content .carousel-inner .micro_product{
+        padding: 0px 255px;
+    }
+   /* #container_content .col-deal .nav-md .nav_title{
+        float: left;
+        }*/
+        #container_content .col-deal .nav-md .nav_title{
+            display: block;
+            margin: 0px; 
+            float: none; 
+            background: none;
+            border: none;
+        }
+        #container_content .col-deal .nav-md .nav_title .menu_nav a{
+            float: left;
+            margin-top: 0px; 
+            padding: 0px 10px;
+            font-size: 10px;
+        }
+        #container_content .tab-col .nav-list li .pill-text{
+            padding: 10px 89px;
+        }
+        #container_content .tab-col .nav-list{
+           border-bottom: none; 
+       }
+       #container_content .qc_free{
+        width: 40%;
+        float: left;
+    }
+    #container_content .qc_free img{
+        width: 100%;
+    }
+    #container_content .tab-col{
+        width: 60%;
+        float: left;
+    }
+    #container_content .tab-col .nav-list li .pill-text{
+        padding: 10px 39px;
+    }
+    #container_content .list_group{
+        width: 100%;
+    }
+    #container_content .consul .amply-text{
+        font-size: 15px;
+    }
+    #container_content .col-small-product{
+        width: 50%;
+        display: inline-block;
+        float: left;
+        z-index: 100;
+    }
+    #container_content .col-small{
+        width: 50%;
+        float: left;
+        display: inline-block;
+    }
+    #container_content .image_product .img_list .list-anh{
+        width: initial;
+    }
+    #container_content .col-iphon{
+        position: initial;
+    }
+    #container_content .col-iphon{
+        width: 50%;
+        float: left;
+    }
+    #container_content .iphone{
+     width: 50%;
+     float: left;
+ }
+ #container_content .carousel-inner .micro_product{
+     padding: 0px 70px;
+ }
+ #container_content .col-iphon7{
+    display: none;
+}
+#container_content .electrolux .electrolux-text{
+    font-size: 16px;
+}
+#container_content .electrolux .famus{
+    font-size: 14px;
+}
+#container_content .hitachi-top .date{
+    font-size: 12px;
+}
+#container_header .col-logo #header_search .border .simple_tip{
+    display: none;
+}
+#container_content .right-control{
+    z-index: 999;
+    position: absolute;
+    right: 50px;
+    top: 50px;
+}
+#container_content .left-control{
+    z-index: 999;
+    position: absolute;
+    left: 50px;
+    top: 50px;
+}
+#container_content .tab-col #nav-list .active:before{
+    width: 50%;
+}
+#container_content .tab-col .nav-list li .pill-text{
+    padding: 10px 16px;
+    font-size: 12px;
+}
+}
+
+@media only screen and (min-width:769px) and (max-width: 992px){
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    body{
+        font-size: 12px;
+        font-family: Arial;
+        background: #fff;
+        margin: 0 auto;
+    }
+    ul li{
+        list-style-type: none;
+    }
+    li a{
+        text-decoration: none;
+    }
+    .fl{
+        float: left;
+
+    }
+    .fr{
+        float: right;
+    }
+    .clear{
+        clear: both;
+    }
+

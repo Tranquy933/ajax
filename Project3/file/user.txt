@@ -1,0 +1,53 @@
+[
+    {
+        "username": "tester",
+        "password": "96e79218965eb72c92a549dd5a330112",
+        "fullname": "Tran Tuan Hiep",
+        "sex": "male",
+        "email": "jhdongchul@gmail.com",
+        "phone": "01695125521",
+        "addres": "Ha noi , Viet nam, ha noi",
+        "birthday": {
+            "day": "10",
+            "month": "October",
+            "year": "1994"
+        },
+        "introduce yourself": "Day la tran tuan hiep . hahahahah",
+        "big_avatar": "big_img326655038.jpg",
+        "small_avatar": "small_img-418811752.jpg"
+    },
+    {
+        "username": "ronaldo",
+        "password": "96e79218965eb72c92a549dd5a330112",
+        "fullname": "cristiano ronaldo",
+        "sex": "female",
+        "email": "ronaldo@gmail.com",
+        "phone": "11111111111",
+        "addres": "Bo dao anha",
+        "birthday": {
+            "day": "11",
+            "month": "September",
+            "year": "1995"
+        },
+        "introduce yourself": "tao la ronaldooooooooo",
+        "big_avatar": "big_img32459107.jpg",
+        "small_avatar": "small_img-1967506318.jpg"
+    },
+    {
+        "username": "hyhy",
+        "password": "eee51f03e79cb83cd23587b794014451",
+        "fullname": "Hahahahahaha",
+        "sex": "male",
+        "email": "jhdongchul@gmail.com",
+        "phone": "0169234234",
+        "addres": "Ha Noi Cau Giay Viet Nam",
+        "birthday": {
+            "day": "10",
+            "month": "September",
+            "year": "1995"
+        },
+        "introduce yourself": "hahahahahahahahahahahahahahahahahahahahah",
+        "big_avatar": "big_img1979219060.png",
+        "small_avatar": "small_img-93304917.png"
+    }
+]

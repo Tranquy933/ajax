@@ -1,0 +1,14 @@
+.admin { padding: 100px; color: #000;}
+
+.wrap { width: 100% !important; }
+.admin_stor{
+	text-align: center;
+	padding: 20px;
+}
+.add_product{
+		list-style-type: none;
+    	text-align: right;
+}
+.add_product button{
+	    padding: 3px 10px;
+}

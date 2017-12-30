@@ -1,0 +1,817 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	font-size: 12px;
+	font-family: Arial;
+	background: #fff;
+	margin: 0 auto;
+}
+ul li {
+	list-style-type: none;
+}
+li a {
+	text-decoration: none;
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+.clear {
+	clear: both;
+}
+@media only screen and (max-width: 480px) {
+	#container_detail .price__sale{
+		padding: 0px;
+		width: 40%!important;
+		padding-top: 10px;
+	}
+	#container_detail .anchorComparePrice .cart .btn-cart{
+		padding: 5px 34px!important;
+	}
+	#container_header .col-logo {
+		text-align: center;
+		.logo-giaca {
+			padding: 30px 0px;
+			float: none;
+		}
+		#header_search {
+			width: initial;
+			.border .simple_tip {
+				display: none;
+			}
+		}
+	}
+	#container_content {
+		.border-play{
+			display: inline-block;
+		}
+		.micro_product{
+			text-align: center;
+		}
+		.thumail-korea img {
+			padding: 0px 10px;
+		}
+		.thumail-deal img {
+			padding: 10px 10px;
+		}
+		.thumail-hc img {
+			padding: 0px 10px;
+		}
+		.endow img {
+			padding: 10px 10px;
+		}
+		.free-endow img {
+			padding: 0px 10px;
+		}
+		.image_product {
+			text-align: center;
+			.img_list {
+				width: initial;
+				height: initial;
+			}
+		}
+		.col-deal .nav-md {
+			.nav-deal h1 {
+				font-size: 12px;
+			}
+			.nav_title {
+				display: block;
+				margin: 0px;
+				float: none;
+				background: none;
+				border: none;
+				.menu_nav a {
+					float: left;
+					margin-top: 0px;
+					padding: 0px 10px;
+					font-size: 10px;
+				}
+			}
+			height: 30px;
+			.nav-deal {
+				padding: 10px;
+			}
+		}
+		.left-control {
+			z-index: 999;
+			position: absolute;
+			left: 50px;
+			top: 50px;
+		}
+		.right-control {
+			z-index: 999;
+			position: absolute;
+			right: 50px;
+			top: 50px;
+		}
+		.col-img {
+			position: absolute;
+		}
+		.tab-col {
+			.nav-list li .pill-text {
+				padding: 10px 12px;
+			}
+			padding: 0px 16px;
+			#nav-list .active:before {
+				width: 30px;
+			}
+		}
+		.border-play 
+
+		.play {
+			border-right-style: none;
+		}
+		.tai_phone, .qc_free {
+			text-align: center;
+			padding-bottom: 0px;
+		}
+		.tab-col {
+			margin-top: 10px;
+		}
+		.list_group {
+			width: 100%;
+		}
+		.electrolux .electrolux-text {
+			font-size: 15px;
+			line-height: 20px;
+			margin-top: 10px;
+			display: inline-block;
+		}
+		.date {
+			font-size: 12px;
+		}
+		.electrolux .famus {
+			font-size: 12px;
+			line-height: 18px;
+			display: -webkit-box;
+			max-width: 100%;
+			height: 50px;	
+			-webkit-line-clamp: 3;
+			-webkit-box-orient: vertical;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			width: 190px;
+			margin: 0px;
+		}
+		.consul .amply-text {
+			font-size: 12px;
+		}
+	}
+	#container_nav .col-nav .navbar-menu .fluid-navbar {
+		.icon_menu {
+			display: none;
+		}
+		.clefix {
+			display: block;
+			padding: 15px 10px;
+		}
+		.menu_nav {
+			display: none;
+		}
+	}
+	#container_content {
+		.quat_gio {
+			margin-bottom: 25px;
+		}
+		.tab-col .nav-list {
+			border-bottom: none;
+		}
+	}
+	.image_product{
+		text-align: center;
+	}
+	.micro-product a{
+		text-align: center !important;
+	}
+
+	#container_detail {
+		.tab-projec{
+			font-size: 15px;
+
+		}
+		._airline{
+			._airline__kangaroo_right{
+				padding-left: 0px !important;
+			}
+		}
+
+		.delivery{
+
+			width: 45%;
+			.delivery__text{
+				.mobile{
+					p{
+						display: none !important;
+					}
+					a{
+						display: none !important;
+					}
+				}
+			}
+		}
+
+		.next_page{
+			.arrow_text{
+				font-size: 14px !important;
+			}
+			.arrow_one{
+				font-size: 14px !important;
+			}
+			a{
+				font-size: 14px !important;
+				padding: 5px 13px !important;
+			}
+		}
+
+		.classify__apple{
+			.classify{
+				.comment__{
+					font-size: 12px !important;
+				}
+				.view__all{
+					font-size: 12px !important;
+				}
+				.wite{
+					font-size: 13px !important;
+				}
+			}
+		}
+	}
+}
+#body-seach {
+	.content_produc .sidebar-left h1{
+		padding: 15px 0px;
+	}
+	.content_produc .sidebar-left .seach{
+		top: 61px;
+	}
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+	#container_detail {
+		#slider .bao_news1 {
+			.product{
+				text-align: center;
+			}
+			a {
+				text-align: center;
+				width: initial !important;
+			}
+			.title {
+				text-align: center;
+				margin-bottom: 0px !important;
+			}
+		}
+		._airline ._airline__kangaroo_right {
+			padding-left: 0px !important;
+		}
+	}
+
+	#container_content .tab-col #nav-list .active:before {
+		width: 60px;
+	}
+	#container_nav .col-nav .navbar-menu .fluid-navbar {
+		.icon_menu {
+			display: none;
+		}
+		.clefix {
+			display: block;
+			padding: 15px 10px;
+		}
+		.menu_nav {
+			display: none;
+		}
+	}
+	#container_content {
+		.produc-title:before{
+			width: 267px;
+			left: 23%;
+		}
+		.border-play{
+			width: 50%;
+			float: left;
+		}
+		.col-sidbar {
+			width: 40%;
+			float: left;
+		}
+		.col-korea {
+			width: 60%;
+			float: left;
+		}
+		.thumail-deal img {
+			padding-top: 0px;
+			padding-bottom: 7px;
+			padding-left: 0px;
+		}
+		.thumail-hc img {
+			float: left;
+			width: 50%;
+		}
+		.endow {
+			img {
+				width: 50%;
+			}
+			display: block;
+		}
+		.free-endow img {
+			padding: 0px;
+			padding-top: 7px;
+		}
+		.image_product {
+			.micro_product {
+				text-align: center;
+			}
+		}
+		.col-img {
+			position: absolute;
+		}
+		.col-deal .nav-md .nav_title {
+			display: block;
+			margin: 0px;
+			float: none;
+			background: none;
+			border: none;
+			.menu_nav a {
+				float: left;
+				margin-top: 0px;
+				padding: 0px 10px;
+				font-size: 10px;
+			}
+		}
+		.tab-col .nav-list {
+			border-bottom: none;
+			margin-top: 20px;
+		}
+		.qc_free {
+			width: 40%;
+			float: left;
+			img {
+				width: 100%;
+			}
+		}
+		.tab-col {
+			float: left;
+			.nav-list li .pill-text {
+				padding: 10px 39px;
+				padding: 10px 39px;
+			}
+		}
+		.list_group {
+			width: 100%;
+		}
+		.consul .amply-text {
+			font-size: 15px;
+		}
+		.col-small-product {
+			width: 50%;
+			display: inline-block;
+			float: left;
+			z-index: 100;
+		}
+		.col-small {
+			width: 50%;
+			float: left;
+			display: inline-block;
+		}
+		.col-iphon {
+			position: initial;
+			width: 50%;
+			float: left;
+		}
+		.iphone {
+			width: 50%;
+			float: left;
+		}
+		.col-iphon7 {
+			display: none;
+		}
+		.electrolux {
+			.electrolux-text {
+				font-size: 16px;
+			}
+			.famus {
+				font-size: 14px;
+			}
+		}
+		.hitachi-top .date {
+			font-size: 12px;
+		}
+	}
+	#container_header .col-logo #header_search .border .simple_tip {
+		display: none;
+	}
+	#container_content {
+		.play{
+			border-right-style:none;
+			border-width: 0px;
+		}
+		.border-play{
+			border-right-style:none;
+			border-width: 0px;
+		}
+	}
+	.right-control {
+		z-index: 999;
+		position: absolute;
+		right: 50px;
+		top: 50px;
+	}
+	.left-control {
+		z-index: 999;
+		position: absolute;
+		left: 50px;
+		top: 50px;
+	}
+	.tab-col {
+		#nav-list .active:before {
+			width: 50%;
+		}
+
+	}
+	.col-big{
+		width: 49%;
+		display: inline-block;
+	}
+	.content_produc .sidebar-left {
+		.seach {
+			top: 62px !important;
+		}
+		.my_seach {
+			top: 1px !important;
+		}
+		h1 {
+			padding: 15px 0px;
+			margin: 0px;
+		}
+		.checkbox_label_square .checkbox_custom-box {
+			margin: 0px 4px 0 -18px !important;
+		}
+		.check-range {
+			padding-bottom: 15px;
+		}
+	}
+}
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+	#container_detail .tab-col .compare-wrap .detail-caption .compare-region-wrap {
+		ul li ul {
+			left: 20% !important;
+			width: 22% !important;
+		}
+		.compare-region-inner {
+			.street_hcm {
+				left: 37% !important;
+			}
+			.street_dn {
+				left: 54% !important;
+			}
+			.street_hp {
+				left: 67% !important;
+			}
+		}
+	}
+	
+	#container_nav{ 
+		.col-nav {
+			.navbar-menu {
+				.fluid-navbar {
+					.clefix{
+						display: block;
+						padding: 15px 10px;
+						#pull{
+							cursor: pointer;
+						}
+					}
+
+				}
+				.menu_nav{
+					display: none;
+					.icon_menu{
+						display: none;
+					}
+				}
+			}
+		}
+	}
+	#container_content {
+		.produc-title:before{
+			width: 289px;
+			left: 20%;
+		}
+		.border-play{
+			width: 50%;
+			float: left;
+		}
+		.col-sidbar {
+			width: 40%;
+			float: left;
+		}
+		.col-korea {
+			width: 60%;
+			float: left;
+		}
+		.thumail-deal img {
+			padding-top: 0px;
+			padding-bottom: 7px;
+			padding-left: 0px;
+		}
+		.thumail-hc img {
+			float: left;
+			width: 50%;
+		}
+		.endow {
+			img {
+				width: 50%;
+			}
+			display: block;
+		}
+		.free-endow img {
+			padding: 0px;
+			padding-top: 7px;
+		}
+		.image_product {
+			.micro_product {
+				text-align: center;
+			}
+		}
+		.col-img {
+			position: absolute;
+		}
+		.col-deal .nav-md .nav_title {
+			display: block;
+			margin: 0px;
+			float: none;
+			background: none;
+			border: none;
+			margin-top: 10px;
+			.menu_nav a {
+				float: left;
+				margin-top: 0px;
+				padding: 0px 10px;
+				font-size: 10px;
+			}
+		}
+		.tab-col .nav-list {
+			border-bottom: none;
+		}
+		.qc_free {
+			width: 40%;
+			float: left;
+			a{
+				display: block;
+			}
+			img {
+				width: 100%;
+			}
+		}
+		.tab-col {
+			float: left;
+			width: 60%;
+			.nav-list{
+				li .pill-text {
+					padding: 10px 39px;
+				}
+			}
+		}
+		.list_group {
+			width: 100%;
+		}
+		.consul .amply-text {
+			font-size: 15px;
+		}
+		.col-small-product {
+			width: 33%;
+			display: inline-block;
+			float: left;
+			z-index: 100;
+		}
+		// .col-big{
+		// 	float: none;
+		// }
+		.col-small {
+			width: 33%;
+			float: left;
+			display: inline-block;
+		}
+		.col-iphon {
+			position: initial;
+			width: 25%;
+			float: left;
+		}
+		.iphone {
+			width: 25%;
+			float: left;
+		}
+		.col-iphon7 {
+			width:25%;
+			float: right;
+			position: initial;
+		}
+		.electrolux {
+			.electrolux-text {
+				font-size: 16px;
+			}
+			.famus {
+				font-size: 14px;
+			}
+		}
+		.hitachi-top .date {
+			font-size: 12px;
+		}
+		.right-control {
+			z-index: 999;
+			position: absolute;
+			right: -20px;
+			top: 50px;
+		}
+		.left-control {
+			z-index: 999;
+			position: absolute;
+			left: -40px;
+			top: 50px;
+		}
+		.tab-col {
+			#nav-list .active:before {
+				width: 50%;
+			}
+
+		}
+
+		.play{
+			border-right-style:none;
+			border-width: 0px;
+		}
+		.border-play{
+			border-right-style:none;
+			border-width: 0px;
+		}
+	}
+
+	#container_header .col-logo #header_search .border .simple_tip {
+		display: none;
+	}
+	#container_type .sidebar-left {
+		.seach {
+			height: 34px !important;
+		}
+		.my_seach {
+			height: 33px !important;
+		}
+	}
+	.col-big{
+		display: inline-block;
+	}
+	#container_detail{
+		.adr-rate .rating{
+			width: 25%!important;;
+		}
+		._airline ._airline__kangaroo_right{
+			padding-left: 0px!important;
+		}
+		._airline{
+			p{
+				font-size: 14px!important;;
+			}
+		} 
+	} 
+}
+
+@media only screen and (min-width : 993px) and (max-width : 1024px){
+	#container_nav{ 
+		.col-nav {
+			.navbar-menu {
+				.fluid-navbar {
+					.clefix{
+						display: none;
+						padding: 15px 10px;
+						#pull{
+							cursor: pointer;
+						}
+					}
+
+				}
+				.menu_nav{	
+					display: block;
+					.icon_menu{
+						display: block;
+					}
+				}
+			}
+		}
+	}
+	#container_content {
+		.border-play {
+			width: 50%;
+			float: left;
+		}
+		.computer_container{
+			margin-bottom: 20px;
+		}
+		.tai_phone{
+			padding-bottom: 0px;
+		}
+		.owl-theme .owl-nav .owl-prev{
+			margin: 0px;
+			padding: 0px;	
+		}
+		.owl-theme .owl-nav .owl-next{
+			margin: 0px;
+			padding: 0px;
+		}
+
+		.col-deal .nav-md .nav_title {
+			.menu_nav a {
+				margin-top: 20px;
+			}
+		}
+		.qc_free {
+			width: 40%;
+			float: left;
+			a{
+				display: block;
+			}
+			img {
+				width: 100%;
+			}
+		}
+		.tab-col {
+			float: left;
+			width: 60%;
+			.nav-list{
+				li .pill-text {
+					padding: 10px 60px;
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (min-width : 1024px) and (max-width : 1336px){
+	#container_header .col-logo #header_search .border .keyword{
+		width: 100% !important;
+	}
+	#container_header .col-logo {
+		text-align: center;
+		.logo-giaca {
+			padding: 30px 0px;
+			float: none;
+		}
+		#header_search {
+			width: initial;
+			.border .simple_tip {
+				display: none;
+			}
+		}
+	}
+	#container_detail{
+		.tab-col .compare-wrap .detail-caption .compare-region-wrap {
+			ul li ul {
+				left: 38% !important;
+				width: 16% !important;
+			}
+			.compare-region-inner {
+				.street_hcm {
+					left: 50% !important;
+				}
+				.street_dn {
+					left: 60% !important;
+				}
+				.street_hp {
+					left: 70% !important;
+				}
+			}
+		}
+		#slider .bao_news1 {
+			a {
+				text-align: center;
+				width: initial !important;
+			}
+			.title {
+				text-align: center;
+				margin-bottom: 0px !important;
+			}
+			.price_ {
+				text-align: center;
+			}
+		}
+		._airline ._airline__kangaroo_right {
+			padding-left: 0px !important;
+		}
+		.col-rows{
+			width: 33%;
+		}
+		.col-pc{
+			width:100%;
+		}
+		._airline{ 
+			._airline__kangaroo_right{
+				padding-left: 0px !important;
+			}
+		}
+		
+	}
+}
